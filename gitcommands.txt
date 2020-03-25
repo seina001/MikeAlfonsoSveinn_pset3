@@ -1,0 +1,28 @@
+﻿git config –global user.name “seina001”
+(only have to do that once per terminal session, I think)
+
+git clone …..
+….. = copy paste from the github website page that you want
+ex. 
+git clone https://github.com/seina001/MikeAlfonsoSveinn_pset3.git
+
+Now you can open up the files in there.
+
+Then if you cd to your folder:
+
+ex. 
+cd Desktop/MikeAlfonsoSveinn_pset3
+
+you can add, pull, push
+
+So:
+git init
+git status
+git add .
+git commit -m “Edited SVE, 10:46 3/25/20”
+git push origin master
+
+
+If you want to pull it 
+
+git pull https://github.com/seina001/MikeAlfonsoSveinn_pset3.git
